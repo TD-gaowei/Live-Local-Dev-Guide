@@ -4,7 +4,7 @@
 
 需要更换部分文件或注释部分代码
 
-enviorment.env
+environment.ts
 
 ```text
 // export const isDevelopmentEnv = process.env.NODE_ENV === "development";
