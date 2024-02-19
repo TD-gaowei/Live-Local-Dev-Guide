@@ -63,3 +63,7 @@ atlasEntrypoint.start();
 yarn start:atlas
 ```
 
+## 访问链接
+
+Live will be available inside Atlas at [http://www.lvh.me:8081/apps/live](http://www.lvh.me:8081/apps/live)
+
