@@ -6,7 +6,7 @@
 
 environment.ts
 
-```text
+```ts
 // export const isDevelopmentEnv = process.env.NODE_ENV === "development";
 export const isDevelopmentEnv = false;
 // export const isAtlasMode = window.location.href.indexOf("/atlas") > -1;
@@ -49,7 +49,7 @@ REACT_APP_METRICS_REFRESH_RATE=15000
 
 src/index.ts
 
-```text
+```ts
 // if (isAtlasMode) {
 //   atlasEntrypoint.start();
 // } else if (isDevelopmentEnv) {
@@ -57,6 +57,13 @@ src/index.ts
 // }
 
 atlasEntrypoint.start();
+```
+
+atlas-entrypoint.ts
+
+```js
+// const params = await (isDevelopmentEnv ? getDevParams() : getParams());
+const params = await getParams();
 ```
 
 ## 启动命令
