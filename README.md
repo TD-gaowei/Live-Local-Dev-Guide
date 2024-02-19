@@ -56,3 +56,10 @@ src/index.ts
 
 atlasEntrypoint.start();
 ```
+
+## 启动命令
+
+```shell
+yarn start:atlas
+```
+
